@@ -1,0 +1,24 @@
+{
+  "name": "accounts-node",
+  "version": "1.0.0",
+  "description": "banking simulator",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danieldificil/accounts-node.git"
+  },
+  "author": "Daniel Araujo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danieldificil/accounts-node/issues"
+  },
+  "homepage": "https://github.com/danieldificil/accounts-node#readme",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "inquirer": "^8.2.4"
+  }
+}

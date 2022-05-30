@@ -20,7 +20,6 @@ function operation()
     choices:
     [
         'Criar conta',
-
         'Consultar saldo',
         'Depositar',
         'Sacar',
@@ -102,7 +101,7 @@ function buildAccount()
                     {
                         Fs.writeFileSync(
                         `accounts/${accountName}.json`,
-                        '{"balance": 0, "chavePix":}',
+                        '{"balance": 0}',
                             function (err)
                             {
                                 console.log(err)

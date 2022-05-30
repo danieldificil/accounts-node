@@ -20,6 +20,7 @@ function operation()
     choices:
     [
         'Criar conta',
+
         'Consultar saldo',
         'Depositar',
         'Sacar',

@@ -2,4 +2,7 @@
 
 banking simulator build with input/output on terminal 
 
-[WORK IN PROGRESS]
+### GETTING START
+
+1.OPEN YOUR INTEGRATE TERMINAL WITH "ACCOUNTS-NODE" DIRETORY <br>
+2.SEND THE COMAND: node index.mjs

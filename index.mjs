@@ -101,7 +101,7 @@ function buildAccount()
                     {
                         Fs.writeFileSync(
                         `accounts/${accountName}.json`,
-                        '{"balance": 0}',
+                        '{"balance": 0, "chavePix":}',
                             function (err)
                             {
                                 console.log(err)
